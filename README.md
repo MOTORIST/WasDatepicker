@@ -1,9 +1,9 @@
 Autor(bootstrap-datepicker) Stefan Petre's [original code](http://www.eyecon.ro/bootstrap-datepicker/)
 
-WasDatepicker (bootstrap) for yii
+WasDatepicker (bootstrap)
 =============
 
-## Datepicker for bootstrap
+## Datepicker for yii
 
 ```php
 
@@ -13,24 +13,24 @@ WasDatepicker (bootstrap) for yii
 )); ?>
 
 <?php
-                $this->widget('application.components.was.WasDatepicker',array(
-                    'model'=>$model,
-                    'form'=>$form,
-                    'attribute'=>'create_time',
-                    'options'=>array(
-                        'language'=>'ru',
-                        'format'=>'dd.mm.yyyy',
-                        'autoclose'=>'true',
-                        'startDate'=>'3,9,2012',
-                        'endDate'=>'15,9,2012',
-                        'weekStart'=>1,
-                        'startView'=>2,
-                        'keyboardNavigation'=>true
-                    ),
-                    'htmlOptions'=>array(
-                        'value'=>date("d.m.Y"),
-                    ),
-                ));
+       $this->widget('application.components.was.WasDatepicker',array(
+           'model'=>$model,
+           'form'=>$form,
+           'attribute'=>'create_time',
+           'options'=>array(
+               'language'=>'ru',
+               'format'=>'dd.mm.yyyy',
+               'autoclose'=>'true',
+               'startDate'=>'3,9,2012',
+               'endDate'=>'15,9,2012',
+               'weekStart'=>1,
+               'startView'=>2,
+               'keyboardNavigation'=>true
+            ),
+            'htmlOptions'=>array(
+               'value'=>date("d.m.Y"),
+             ),
+      ));
 ?>
 
 <?php $this->endWidget(); ?>
