@@ -1,11 +1,12 @@
 Autor(bootstrap-datepicker) Stefan Petre's [original code](http://www.eyecon.ro/bootstrap-datepicker/)
 
-WasDatepicker for yii
+WasDatepicker (bootstrap) for yii
 =============
 
-# Datepicker for bootstrap
+## Datepicker for bootstrap
 
-[php]
+```php
+
 <?php $form=$this->beginWidget('CActiveForm',array(
 	'id'=>'test,
 
@@ -34,6 +35,7 @@ WasDatepicker for yii
 
 <?php $this->endWidget(); ?>
 
+```
 
 ## Options
 
