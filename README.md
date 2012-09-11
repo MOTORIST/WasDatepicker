@@ -15,8 +15,8 @@ WasDatepicker (bootstrap)
 <?php
        $this->widget('application.components.was.WasDatepicker',array(
            'model'=>$model,
-           'form'=>$form,
            'attribute'=>'create_time',
+	   //model + attribute or 'name'=>'nameInput',
            'options'=>array(
                'language'=>'ru',
                'format'=>'dd.mm.yyyy',
