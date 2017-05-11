@@ -38,6 +38,7 @@ class WasDatepicker extends CInputWidget
             'css' => array(
                 'datepicker.css',
             ),
+            'depends'=>array('jquery'),
         );
 
         if (!isset($this->package['baseUrl'])) {
